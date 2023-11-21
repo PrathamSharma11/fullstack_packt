@@ -13,7 +13,7 @@ Download the zip file from git hub inside(fullstack_packt) unzip it and open it 
 4)in your .env file change the database name to fullstack_packt
 5)in the terminal run = php artisan serve and open the localhost on browser and start the apache and mysql server
 6)go to routes/api file and you can see all the api's, after that go to postman and put the api's on search bar and smash the send button than you can see every api's positive result.
-7) for searching i have USED ELASTIC Search so, while testing the api you have to put ?search={input} in the end of api to get the result in postman
+7) for searching i have USED ELASTIC Search so, to enable searching install this = composer require laravel/scout,php artisan vendor:publish --provider="Laravel\Scout\ScoutServiceProvider" ,while testing the api you have to put ?search={input} in the end of api to get the result in postman
 
 
 
